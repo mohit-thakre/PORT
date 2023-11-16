@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="this website is developed by mohit thakre and it is developed with the help of code with harry">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js"></script>
+    <title>PORTFOLIO</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><span class="sp1">
+               <a href="index.html"> <img src="Black & White Minimalist Business Logo.png"></a></span></div>
+            <div class="navround">
+                <div class="right">
+                    <ul>
+                        <li><a href="#"><span>Home</span></a></li>
+                        <li><a href="#"><span>About</span></a></li>
+                        <li><a href="#"><span>Services</span></a></li>
+                        <li><a href="pageofproject.html"><span>Project</span></a></li>
+                        <li><a href="http://127.0.0.1:3000/form.html"><span>Contact us</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">h
+
+                <span class="ls1">Hi</span>,my name is <span class="ls1">MOHIT</span> and i am a aspiring <span
+                    class="ls2"></span><span class="ls3"></span>
+                    <div class="btn-container">
+                        <button class="btn">RESUME<span></span> </button>
+                        <button class="btn">GITHUB</button>
+                    </div>
+            </div>
+           
+            <div class="rightsection"><img src="imgm.jpg" class="abc"><script>
+                var a = document.querySelector(".abc")
+                a.addEventListener("mouseover",function(){
+                    a.style.transition="5s"
+                     a.style.width="0%"
+                     a.style.border="50px solid rgb(12,15,63)"
+                })
+                a.addEventListener("mouseout",function(){
+                    a.style.transition="5s"
+                     a.style.width="100%"
+                     a.style.border="1px solid rgb(12,15,63)"
+                })
+
+            </script></div>
+        </section>
+        <hr>
+        <section class="second">
+            <p class="p"> Here are my-</p>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical1">
+                    <img src="HTML3.png" width="40px" height="40px">
+                    <div class="vertical-text1">HTML
+                        <span class="ft1">(Hyper Text Markup Language)</span>
+                    </div>
+                </div>
+                <div class="vertical2">
+                    <img src="CSS3.png" width="40px" height="50px">
+                    <div class="vertical-text2">CSS
+                        <span class="ft2"> (Cascading style sheet)</span>
+                    </div>
+                </div>
+                <div class="vertical3">
+                    <img src="JS3.png" width="40px" height="40px">
+                    <div class="vertical-text3">JAVASCRIPT
+                        <span class="ft3">(for front & back end)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div>
+            <hr class="hr">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="flex1">
+                <span><a href="#"><i class="fa-brands fa-facebook fa-bounce"></i></a></span>
+                <span><a href="#"><i class="fa-brands fa-instagram fa-bounce"></i></a></span>
+                <span><a href="#"><i class="fa-brands fa-linkedin-in fa-bounce"></i></a></span>
+                <span><a href="#"><i class="fa-brands fa-twitter fa-bounce"></i></a></span>
+            </div>
+            <div class="flex2">
+                <ul>
+                    <li><a href="#"><span>Home</span></a></li>
+                    <li><a href="#"><span>About</span></a></li>
+                    <li><a href="#"><span>Services</span></a></li>
+                    <li><a href="#"><span>Project</span></a></li>
+                    <li><a href="#"><span>Contact us</span></a></li>
+                </ul>
+            </div>
+            <div class="row">
+                developer Copyright © 2023 Inferno - All rights reserved || Designed By: MOHIT
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typedd = new Typed('.ls2', {
+            strings: ['<b><i>FULL STACK WEB DEVELOPER</b></i><p style="color:white;">and</p> '],
+            typeSpeed: 100,
+        });
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+
+        var typed = setTimeout(function () {
+            new Typed('.ls3', {
+                strings: ['<b><i> <b><i>FULL STACK JAVA DEVELOPER.</b></i>'],
+                typeSpeed: 100,
+            })
+        }, 4000);
+    </script>
+
+</body>
+
+</html>
